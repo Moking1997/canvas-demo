@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+#canvas {
+    background: #Fff;
+    display: block;
+}
+
+.actions {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.actions svg {
+    width: 1.5em;
+    height: 1.5em;
+    transition: all 0.3s;
+}
+
+
+
+.actions svg.active {
+    fill: red;
+    transform: scale(1.2);
+}
+
+.colors {
+    position: fixed;
+    top: 40px;
+    right: 10px;
+}
+
+.colors>li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    margin: 10px 0;
+}
+
+.colors>li.black {
+    background: #132c33;
+}
+.colors>li.red {
+    background: #f07c82;
+}
+
+.colors>li.blue {
+    background: #346c9c;
+}
+
+.colors>li.green {
+    background: #12a182;
+}
+
+.sizes {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+}
+
+.sizes>li {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.sizes>.thin {
+    height: 0;
+    width: 20px;
+    border-top: 3px solid black;
+}
+
+.sizes>.thick {
+    height: 0;
+    width: 20px;
+    border-top: 6px solid black;
+}

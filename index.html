@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>画板</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <canvas id="canvas" width="500" height="500">
+
+    </canvas>
+    <div id="actions" class="actions">
+        <svg id=eraser class="icon" aria-hidden="true">
+            <use xlink:href="#icon-xiangpica"></use>
+        </svg>
+        <svg id=brush class="icon" aria-hidden="true">
+            <use xlink:href="#icon-huabi"></use>
+        </svg>
+        <svg id=clear class="icon" aria-hidden="true">
+            <use xlink:href="#icon-del"></use>
+        </svg>
+        <svg id=download class="icon" aria-hidden="true">
+            <use xlink:href="#icon-xiazai"></use>
+        </svg>
+    </div>
+
+    <div class="colors">
+        <li id='black' class="black"></li>
+        <li id='red' class="red"></li>
+        <li id='blue' class="blue"></li>
+        <li id='green' class="green"></li>
+    </div>
+
+    <ol class="sizes">
+        <li id='thin' class='thin'></li>
+        <li id='thick' class='thick'></li>
+    </ol>
+</body>
+<script src='//at.alicdn.com/t/font_1256368_9qyywfg4lv.js
+'> </script>
+<script src='js/main.js'></script>
+
+</html>
